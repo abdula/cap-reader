@@ -1,0 +1,184 @@
+
+<?xml version = '1.0' encoding = 'UTF-8' standalone = 'yes'?>
+<?xml-stylesheet href='http://alerts.weather.gov/cap/capatomproduct.xsl' type='text/xsl'?>
+
+<!--
+This atom/xml feed is an index to active advisories, watches and warnings 
+issued by the National Weather Service.  This index file is not the complete 
+Common Alerting Protocol (CAP) alert message.  To obtain the complete CAP 
+alert, please follow the links for each entry in this index.  Also note the 
+CAP message uses a style sheet to convey the information in a human readable 
+format.  Please view the source of the CAP message to see the complete data 
+set.  Not all information in the CAP message is contained in this index of 
+active alerts.
+-->
+
+<alert xmlns = 'urn:oasis:names:tc:emergency:cap:1.1'>
+
+    <!-- http-date = Fri, 22 Apr 2016 05:09:00 GMT -->
+    <identifier>NOAA-NWS-ALERTS-AS1255F6CB7C54.HurricaneLocalStatement.1255F6CD8058AS.STUHLSZS1.1366a0bfb2224d74d6eaf85f595e36dc</identifier>
+    <sender>w-nws.webmaster@noaa.gov</sender>
+    <sent>2016-04-21T18:09:00-11:00</sent>
+    <status>Actual</status>
+    <msgType>Alert</msgType>
+    <scope>Public</scope>
+    <note>Alert for ASZ003; Manua; Tutuila and Aunuu (American Samoa) Issued by the National Weather Service</note>
+    <info>
+        <category>Met</category>
+        <event>Hurricane Local Statement</event>
+        <urgency>Expected</urgency>
+        <severity>Severe</severity>
+        <certainty>Possible</certainty>
+        <eventCode>
+            <valueName>SAME</valueName>
+            <value>HLS</value>
+        </eventCode>
+        <effective>2016-04-21T18:09:00-11:00</effective>
+        <expires>2016-04-22T07:30:00-11:00</expires>
+        <senderName>NWS American Samoa (Pago Pago, American Samoa)</senderName>
+        <headline>Hurricane Local Statement issued April 21 at 6:09PM SST  by NWS American Samoa</headline>
+        <description>...HURRICANE AMOS CONTINUES TO STRENGTHEN AND MOVING TOWARD THE
+            SAMOAN ISLANDS...
+            ...NEW INFORMATION...
+            TROPICAL CYCLONE AMOS UPGRADED TO HURRICANE STRENGTH
+            ...AREAS AFFECTED...
+            THIS LOCAL STATEMENT PROVIDES INFORMATION FOR TUTUILA...AUNUU...MANU`A
+            AND SWAINS.
+            ...WATCHES/WARNINGS...
+            A HIGH SURF WARNING IS IN EFFECT FOR ALL AMERICAN SAMOA.
+            A TROPICAL STORM WATCH REMAINS IN EFFECT FOR ALL AMERICAN SAMOA.
+            A FLASH FLOOD WATCH REMAINS IN EFFECT FOR ALL AMERICAN SAMOA.
+            ...STORM INFORMATION...
+            AT 4:30 PM LOCAL TIME THURSDAY...HURRICANE AMOS WAS CENTERED NEAR
+            LATITUDE 12.7 SOUTH...LONGITUDE 177.0 WEST...OR ABOUT 380 NAUTICAL
+            MILES WEST OF TUTUILA. TROPICAL CYCLONE AMOS HAS MOVED EAST-SOUTHEAST
+            AROUND 9 MPH. MAXIMUM SUSTAINED WINDS ARE NEAR 75 MPH.
+            .PRECAUTIONARY/PREPAREDNESS ACTIONS...
+            .NEXT UPDATE...THE NEXT LOCAL STATEMENT WILL BE ISSUED AROUND 12 AM
+            LOCAL TIME FRIDAY...OR SOONER IF CONDITIONS WARRANT.
+            ...A HIGH SURF WARNING IS IN EFFECT...
+            ...A TROPICAL STORM WATCH REMAINS IN EFFECT...
+            ...A FLASH FLOOD WATCH REMAINS IN EFFECT...
+            ...WINDS...
+            ON TUTUILA...AUNUU AND SWAINS...TROPICAL STORM FORCE WINDS OF 45
+            TO 50 MPH WITH HIGHER GUSTS WILL ARRIVE AFTER FRIDAY MIDNIGHT.
+            ON MANU`A...NORTH WINDS OF 25 TO 35 MPH WILL INCREASE TO 40 TO 45 MPH
+            WITH HIGHER GUSTS EARLY SATURDAY MORNING.
+            ...STORM SURGE AND STORM TIDES...
+            HAZARDOUS SURFS GENERATED FROM TROPICAL CYCLONE AMOS WILL ARRIVE
+            ALONG THE SOUTHWEST...WEST...NORTHWEST AND NORTH FACING REEFS OF
+            ALL AMERICAN SAMOA STARTING FRIDAY AFTERNOON THAN PEAKING TO NEAR
+            26 FEET SATURDAY AND SUNDAY. STORM SURGE OF 3 TO 5 FEET WILL
+            IMPACT THE COASTAL COMMUNITIES ESPECIALLY DURING HIGH TIDES OVER
+            THE WEEKEND.
+            &amp;&amp;
+            LAPATAIGA MO MATAGI MALOLOSI
+            OFISA O LE TAU PAGO PAGO AS
+            609 PM AFIAFI ASO TOFI APERILA 21 2016
+            ...FAAMATALAGA FOU...
+            UA AVEA NEI AMOS MA AFA
+            ...NOFOAGA UA AAFIA...
+            O LE A MAFAI ONA AAFIA MOTU UMA O AMERIKA SAMOA...TUTUILA...AUNUU...MANU`A
+            MA SWAINS.
+            ...NOFO VAAVAAIA/LAPATAIGA...
+            UA IAI NEI SE LAPATAIGA MO GALU MAUALULUGA
+            O LOO TUMAU LE NOFO VA`AVAAIA MO MATAGI MALOLOSI O AMERIKA SAMOA.
+            O LOO TUMAU PEA LE NOFO VAAVAAIA MO TAFEGA MA LOLOGA MO AMERIKA SAMOA.
+            ...FAAMATALAGA E FAATATAU I TULAGA LOULOUA O LE TAU...
+            I LE AFA O LE 4 I LE AFIAFI O LE ASO...SA IAI LE AFA O AMOS E TUSA
+            MA LE 380 MAILA TAUTAI LE MAMAO I SISIFO O TUTUILA...MA O LOO
+            AGA`I LEMU I SASA`E-SAUTE I SASA`E E TUSA MA LE 9 MAILA I LE ITULA LE
+            SAOASAOA. O LE MALOLOSI O LE AFA O AMOS UA OO ATU I LE 75 MPH.
+            FAUTUAGA/TAPENAGA...
+            FAAMOLEMOLE TAGA`I ANE I AU TAPENAGA MA SAUNIUNIGA TUSI-TUSIA MO
+            FAALAVELAVE FAAFUASE`I...MA SAUNI E FAATINO PE A IAI NI LAPATAIGA.
+            FAAFOFOGA MAI PEA MO NI TALA FOU MAI LE OFISA O LE VAAI-TAU MA LE
+            OFISA O LE EOC PO O LE TEMCO.
+            MO TAUTAI O VA`A...UA TATAU ONA FO`I I LE TAULAGA...AUA LE
+            SAOGALEMU O VA`A MA MEA TOTINO. IA TAPENA MO FALAVELAVE FAAFUASE`I
+            I TAIMI O MATAGI MALOLOSI MA TULAGA LOULOUA O LE TAU. IA FAAFOFOGA
+            MAI PEA I TALA O LE TAU AE MAISE FAAALIGA MAI OFISA O LE MALO.
+            O TIMUGA MAMAFA MA LE MALOLOSI O TAFEGA E MAFAI ONA FAATUPULAIA
+            AI LOLOGA I NOFOAGA MAUALALO MA AUALA-TELE. FAAMOLEMOLE IA
+            FAAETEETE I TAIMI O FEMALAGAIGA AE MAISE NOFOAGA E LATA I MAUGA
+            ONA O LE SUSU O LE ELEELE UA IAI NEI.
+            MO NI ISI FAAMATALAGA MO TAPENAGA...FAAMOLEMOLE FAAFESOOTA`I ANE
+            LE EOC I LE 699-3800.
+            ...MATAGI...
+            MO TUTUILA...AUNUU MA SWAINS...O LE A TAUNUU MAI MATAGI MALOLOSI O
+            AMOS I LE VAELUAGA O LE PO O LE ASO FARAILE...MA O LE A MAFAI ONA
+            OO ATU I LE 45 I LE 50 MPH MA E AGI FAATA`UTA`U I NI ISI O TAIMI.
+            MO MANU`A...O SAVILI MAI MATU E 25 I LE 35 MPH O LE A SIISII ATU I
+            LE 40 I LE 45 MPH MA E AGI FAATA`UTA`U I LE VAVEAO O LE ASO TOONA`I.
+            ...GALU MAUALULUGA MA TULAGA O LE TAI...
+            O LE A MAFAI ONA AAFIA GATAIFALE I SAUTE I SISIFO...SISIFO...MATU
+            I SISIFO MA MATU O AMERIKA SAMOA E AMATA ATU I LE AOAULI O LE ASO
+            FARAILE SEIA OO INA SIISII LE MAUALULUGA O GALU E LATA I LE 26
+            FUTU I LE ASO TOONA`I MA LE ASO SA. O LE A MAFAI FO`I ONA OO MAI
+            GALU E LATA I LE 3 I LE 5 FUTU LE MAUALULUGA I UTA O AUALA MA O LE
+            A AAFIA AI NOFOAGA TU-LATA I MATAFAGA.
+            ...MO NISI RIPOTI FOU...
+            O LE A TOE AUINA ATU SE RIPOTI FOU I LE 12 I LE VAELUAGA O LE PO
+            ASO TOFI...PE VAVE ATU FO`I PE A IAI NI SUIGA.</description>
+        <instruction>REVIEW YOUR TROPICAL CYCLONES DISASTER PLAN AND BE READY TO ACT IF
+            A TROPICAL STORM WARNING IS ISSUED. LISTEN FOR THE LATEST INFORMATION
+            FROM YOUR LOCAL NATIONAL WEATHER SERVICE OFFICE AND EMERGENCY
+            OPERATION CENTER (EOC) OR TEMCO.
+            MARINERS SHOULD MAKE ALL NECESSARY PREPARATIONS TO RETURN TO PORT...SEEK
+            SAFE HARBOR...AND SECURE THEIR CRAFT. INITIATE PREPARATIONS ACCORDING
+            TO YOUR EMERGENCY PLAN FOR TROPICAL CYCLONES. MONITOR NOAA WEATHER
+            RADIO FOR CHANGES TO THE LATEST FORECAST AND LISTEN FOR FURTHER
+            STATEMENTS FROM LOCAL OFFICES.
+            HEAVY RAINFALL AND RUNOFFS MAY CAUSE SMALL STREAMS TO OVERFLOW...
+            RESULTING IN FLOODING OF LOW LYING AREAS AND ROADWAYS. PLEASE TAKE
+            EXTRA CAUTION WHEN DRIVING THROUGH FLOOD ROADS. MUD AND LANDSLIDES
+            ARE ALSO POSSIBLE ALONG STEEP SLOPES AND MOUNTAINOUS AREAS AS
+            GROUNDS BECOME SATURATED.
+            FOR ADDITIONAL PREPAREDNESS INFORMATION PLEASE CONTACT THE EOC AT
+            699-3800.</instruction>
+        <parameter>
+            <valueName>WMOHEADER</valueName>
+            <value></value>
+        </parameter>
+        <parameter>
+            <valueName>UGC</valueName>
+            <value>ASZ001>003</value>
+        </parameter>
+        <parameter>
+            <valueName>VTEC</valueName>
+            <value></value>
+        </parameter>
+        <parameter>
+            <valueName>TIME...MOT...LOC</valueName>
+            <value></value>
+        </parameter>
+        <area>
+            <areaDesc>ASZ003; Manua; Tutuila and Aunuu</areaDesc>
+            <polygon></polygon>
+            <geocode>
+                <valueName>FIPS6</valueName>
+                <value>060010</value>
+            </geocode>
+            <geocode>
+                <valueName>FIPS6</valueName>
+                <value>060020</value>
+            </geocode>
+            <geocode>
+                <valueName>FIPS6</valueName>
+                <value>060050</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ASZ001</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ASZ002</value>
+            </geocode>
+            <geocode>
+                <valueName>UGC</valueName>
+                <value>ASZ003</value>
+            </geocode>
+        </area>
+    </info>
+</alert>

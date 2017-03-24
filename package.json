@@ -1,0 +1,39 @@
+{
+  "name": "cap-reader",
+  "version": "1.0.0",
+  "description": "CAP feed reader",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha \"tests/**/*.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdula/cap-reader.git"
+  },
+  "keywords": [
+    "cap",
+    "feed",
+    "atom",
+    "alert"
+  ],
+  "author": "Ivan Maksimenko <ivanmaximenko@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdula/cap-reader/issues"
+  },
+  "homepage": "https://github.com/abdula/cap-reader#readme",
+  "dependencies": {
+    "event-stream": "^3.3.4",
+    "feedparser": "^1.1.4",
+    "request": "^2.81.0",
+    "xml2js": "^0.4.16"
+  },
+  "devDependencies": {
+    "express": "^4.15.2",
+    "mocha": "^3.2.0",
+    "should": "^11.2.1"
+  }
+}
